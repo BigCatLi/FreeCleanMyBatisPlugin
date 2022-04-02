@@ -1,12 +1,13 @@
 <idea-plugin>
-    <id>org.example.FreeCleanMyBatisPlugin</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>org.BigCat.FreeCleanMyBatisPlugin</id>
+    <name>FreeCleanMyBatisPlugin</name>
+    <vendor email="lidacat@163.comm" url="https://github.com/BigCatLi/FreeCleanMyBatisPlugin">BigCat</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
-    ]]></description>
+          Plugin for mybatis
+          <br>Always free</br>
+          <br>Easy to Use</br>
+      ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
