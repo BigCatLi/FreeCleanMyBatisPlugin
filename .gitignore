@@ -1,5 +1,4 @@
 /build/
-.gradle
 ### Example user template template
 ### Example user template
 
@@ -8,3 +7,4 @@
 *.iml
 out
 gen
+/.gradle/
