@@ -1,4 +1,4 @@
-package action;
+package org.bigcat.freeCleanMybatisPlugin.action;
 
 import com.intellij.codeInsight.editorActions.TypedHandlerDelegate;
 

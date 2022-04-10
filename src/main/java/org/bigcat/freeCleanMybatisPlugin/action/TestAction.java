@@ -1,7 +1,6 @@
-package action;
+package org.bigcat.freeCleanMybatisPlugin.action;
 
-import com.intellij.notification.NotificationDisplayType;
-import com.intellij.notification.NotificationGroup;
+import com.intellij.icons.AllIcons;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
@@ -42,6 +41,9 @@ public class TestAction extends AnAction {
                 currentProject,
                 message.toString(),
                 title,
-                Messages.getInformationIcon());
+                AllIcons.General.InlineCopy);
+        testDialog dialog = new testDialog();
+        dialog.show();
+        dialog.setTitle("testDialog");
     }
 }

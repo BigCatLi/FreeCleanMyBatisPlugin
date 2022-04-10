@@ -15,13 +15,19 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
+        <executor implementation="org.bigcat.freeCleanMybatisPlugin.executor.CustomRunExecutor" id="CustomRunExecutor"/>
     </extensions>
 
     <actions>
         <!-- Add your actions here -->
-        <action id="TestAction" class="action.TestAction" text="Test" description="Test action">
+        <action id="TestAction" class="org.bigcat.freeCleanMybatisPlugin.action.TestAction" text="Test" description="Test action">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
             <keyboard-shortcut keymap="$default" first-keystroke="ctrl L"/>
+        </action>
+        <action id="org.bigcat.freeCleanMybatisPlugin.MyBatisConsoleViewAction"
+                class="org.bigcat.freeCleanMybatisPlugin.action.MyBatisConsoleViewAction" text="MyBatisConsoleView"
+                description="MyBatisConsoleViewAction">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
     </actions>
 </idea-plugin>
