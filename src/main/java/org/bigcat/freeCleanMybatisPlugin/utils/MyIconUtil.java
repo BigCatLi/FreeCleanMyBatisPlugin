@@ -9,6 +9,7 @@ public class MyIconUtil {
         return IconLoader.getIcon(path);
     }
     public static final Icon ICON = getIcon("/icons/pluginIcon.svg");
+    public static final Icon SMALLICON = getIcon("/icons/idea/other/smallIcon.png");
 
     public static final Icon LIGHTNING_DARK = getIcon("/icons/idea/bullet.png");
 

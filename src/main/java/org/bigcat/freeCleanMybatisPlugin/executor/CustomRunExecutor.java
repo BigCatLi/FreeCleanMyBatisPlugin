@@ -26,18 +26,18 @@ public class CustomRunExecutor extends Executor {
 
     @Override
     public @NotNull Icon getToolWindowIcon() {
-        return MyIconUtil.ICON;
+        return MyIconUtil.SMALLICON;
     }
 
     @NotNull
     @Override
     public Icon getIcon() {
-        return MyIconUtil.ICON;
+        return MyIconUtil.SMALLICON;
     }
 
     @Override
     public Icon getDisabledIcon() {
-        return MyIconUtil.ICON;
+        return MyIconUtil.SMALLICON;
     }
 
     @Override

@@ -5,7 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import org.bigcat.freeCleanMybatisPlugin.executor.CustomExecutor;
 
 /**
- * <p></p>
+ * <p>插件的命令行，位于idea下方，输出的是mybatis的sql和param拼接后的结果</p>
  *
  * @author: bigcatlee
  * @date: 2022/4/10 15:11
