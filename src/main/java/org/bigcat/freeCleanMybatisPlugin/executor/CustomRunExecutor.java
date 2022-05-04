@@ -17,7 +17,7 @@ import javax.swing.*;
  */
 public class CustomRunExecutor extends Executor {
 
-    public static final String TOOL_WINDOW_ID = "tool window plugin";
+    public static final String TOOL_WINDOW_ID = "MyBatisConsole";
 
     @Override
     public @NotNull String getToolWindowId() {

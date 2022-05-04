@@ -14,16 +14,13 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <!-- 配置执行器 -->
         <executor implementation="org.bigcat.freeCleanMybatisPlugin.executor.CustomRunExecutor" id="CustomRunExecutor"/>
+        <!-- 配置SQL过滤器 -->
+        <consoleFilterProvider implementation="org.bigcat.freeCleanMybatisPlugin.MyBatisLogConsoleFilterProvider"/>
     </extensions>
 
     <actions>
-        <!-- Add your actions here -->
-        <action id="TestAction" class="org.bigcat.freeCleanMybatisPlugin.action.TestAction" text="Test" description="Test action">
-            <add-to-group group-id="ToolsMenu" anchor="first"/>
-            <keyboard-shortcut keymap="$default" first-keystroke="ctrl L"/>
-        </action>
         <action id="org.bigcat.freeCleanMybatisPlugin.MyBatisConsoleViewAction"
                 class="org.bigcat.freeCleanMybatisPlugin.action.MyBatisConsoleViewAction" text="MyBatisConsoleView"
                 description="MyBatisConsoleViewAction">
